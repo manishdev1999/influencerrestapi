@@ -1,1 +1,1 @@
-web: npm app.js
+nodemon server.js
