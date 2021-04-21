@@ -18,82 +18,66 @@ const influencerschema = new mongoose.Schema(
     },
     email: {
       type: String,
-      required: [true, 'A influencer must have a name'],
       unique: true, 
     },
     slug: String,
     phone: {
       type: Number,
-      required: [true, 'A influencer must have a phone number ']
     },
     twitterurl: {
       type: String,
-      required: [true, 'A influencer must have a url'],
       unique: true,
     },
     linkedinurl: {
       type: String,
-      required: [true, 'A influencer must have a url'],
       unique: true,
     },
     youtubeurl: {
       type: String,
-      required: [true, 'A influencer must have a url'],
       unique: true,
     },
     title: {
       type: String,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     source: {
       type: String,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     beats: {
       type: String,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     street: {
       type: String,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     city: {
       type: String,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     state: {
       type: String,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     zip: {
       type: Number,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     country: {
       type: String,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     okstatus: {
       type: String,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     instagram: {
       type: String,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     weburl: {
       type: String,
-      required: [true, 'A influencer must have a title'],
       unique: true,
     },
     
