@@ -49,5 +49,23 @@ class APIFeatures {
 
     return this;
   }
+  search()
+  {
+    const keyword = this.queryString.keyword ? {
+
+
+      email : {
+
+        $regex : this.queryString.keyword,
+        $options : 'i'
+      }
+
+    } : {}
+    console.log(keyword);
+
+    this.query = this.query.find({...keyword});
+    return this;
+  }
+
 }
 module.exports = APIFeatures;
