@@ -18,7 +18,6 @@ const influencerschema = new mongoose.Schema(
     },
     email: {
       type: String,
-      unique: true, 
     },
     slug: String,
     phone: {
@@ -30,31 +29,24 @@ const influencerschema = new mongoose.Schema(
     },
     linkedinurl: {
       type: String,
-      unique: true,
     },
     youtubeurl: {
       type: String,
-      unique: true,
     },
     title: {
       type: String,
-      unique: true,
     },
     source: {
       type: String,
-      unique: true,
     },
     beats: {
       type: String,
-      unique: true,
     },
     street: {
       type: String,
-      unique: true,
     },
     city: {
       type: String,
-      unique: true,
     },
     state: {
       type: String,
@@ -66,19 +58,15 @@ const influencerschema = new mongoose.Schema(
     },
     country: {
       type: String,
-      unique: true,
     },
     okstatus: {
       type: String,
-      unique: true,
     },
     instagram: {
       type: String,
-      unique: true,
     },
     weburl: {
       type: String,
-      unique: true,
     },
     
   
