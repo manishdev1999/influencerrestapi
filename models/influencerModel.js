@@ -25,7 +25,6 @@ const influencerschema = new mongoose.Schema(
     },
     twitterurl: {
       type: String,
-      unique: true,
     },
     linkedinurl: {
       type: String,
@@ -54,7 +53,6 @@ const influencerschema = new mongoose.Schema(
     },
     zip: {
       type: Number,
-      unique: true,
     },
     country: {
       type: String,
