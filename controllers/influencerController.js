@@ -6,7 +6,7 @@ exports.getAllInfluencer = async (req, res) => {
   try {
     // EXECUTE QUERY
     const features = new APIFeatures(Tour.find(), req.query)
-    
+                     .search()
     const tours = await features.query;
 
     // SEND RESPONSE
